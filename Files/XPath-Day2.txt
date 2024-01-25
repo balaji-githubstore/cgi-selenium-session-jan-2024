@@ -1,0 +1,48 @@
+XPath
+
+Absolute xpath (not recommended) -/html/body/div[3]/div[2]/div/div/div/div/div[4]/button[2]
+
+
+Relative xpath- 
+//tagname[@attribute='']
+//tagname[text()='']
+
+
+//tagname[contains(@attribute,'')]
+//tagname[contains(text(),'')]
+
+
+
+Grouping of xpath --> starts at 1
+(//input[@name='sex'])[3]
+
+
+Example:verify in chrome- ctrl+f
+
+//button[@title='Allow all cookies']
+//button[@data-cookiebanner='accept_button']
+
+//button[@value='1']
+
+//button[text()='Allow all cookies']
+
+//a[text()='Create new account']
+
+//tagname[contains(text(),'')]
+
+//iframe[contains(@src,'new.php')]
+
+//img[@alt='Go']
+//img[contains(@src,'go.gif')]
+
+
+//input[@type='file']
+
+
+
+
+
+
+
+https://eduramp-my.sharepoint.com/:f:/g/personal/yashvi_dave_eduramp_in/Elkv9cZdWSlEvPx2dn9mFM4BusY-rWVIEX4gnzdtTmL_xQ?e=EKU9Zz
+
